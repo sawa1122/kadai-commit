@@ -12,7 +12,7 @@
         <% else %>
             <% result 'ありません' %>
         <% end %>
-        <P>おみくじの結果 : <% result %></P>
+        <P>おみくじの結果 : <%= result %></P>
         <form action="/" method="POST">
             <button type="submit" name="act" value="draw">おみくじをひく!</button>
         </form>
